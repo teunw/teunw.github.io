@@ -10,19 +10,24 @@ html, body {
   justify-content:center;
   align-items: center;
   padding-top: 30vh;
+  z-index: 500;
 }
 
 .name {
-  color: #CCC;
+  color: #FFF;
+}
+
+.developer {
+  color: #FFF;
+  text-align: center;
 }
 
 .findme {
-  alignment: center;
-  color: #BBB;
+  color: #EEE;
 }
 
 .link {
-  color: #BBB;
+  color: #FFF;
 }
 
 .link:hover {
@@ -30,12 +35,14 @@ html, body {
 }
 
 .link:visited {
-  color: #BBB;
+  color: #FFF;
 }
 
-canvas {
+.background {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  z-index: -1000;
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
 }

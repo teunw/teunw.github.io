@@ -1,5 +1,7 @@
-body {
+html, body {
   background-color: #b61924;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .container {
@@ -33,7 +35,7 @@ body {
 
 canvas {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: -1000;
 }

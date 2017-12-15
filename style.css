@@ -1,0 +1,39 @@
+body {
+  background-color: #b61924;
+}
+
+.container {
+  font-family: Roboto, Arial, monospace;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  padding-top: 30vh;
+}
+
+.name {
+  color: #CCC;
+}
+
+.findme {
+  alignment: center;
+  color: #BBB;
+}
+
+.link {
+  color: #BBB;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.link:visited {
+  color: #BBB;
+}
+
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1000;
+}

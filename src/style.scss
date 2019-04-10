@@ -1,0 +1,43 @@
+html,
+body {
+    background-color: #212121;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@mixin white-text {
+    color: #EEE;
+}
+
+a {
+    @include white-text();
+}
+
+.link-btn {
+    padding: 10px;
+    margin-bottom: 15px;
+
+    text-align: center;
+
+    border-color: #EEE;
+    border-width: 1px;
+    border-style: solid;
+
+    &:hover {
+        border-width: 2px;
+        padding: 9px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+}
+
+.container {
+    @include white-text();
+    font-family: Roboto, Arial, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh;
+}

@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "parcel build index.html --out-dir ./../"
+    "build": "parcel build index.html --out-dir ./../"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "node-sass": "^4.11.0",
     "parcel-bundler": "^1.12.3",
